@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\salessystem.Data\salessystem.Data.csproj" />
+    <ProjectReference Include="..\salessystem.Services\salessystem.Services.csproj" />
   </ItemGroup>
 
   <ItemGroup>

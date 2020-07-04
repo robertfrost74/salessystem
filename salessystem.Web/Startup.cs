@@ -12,6 +12,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using salessystem.Data;
+using salessystem.Services.Product;
 
 namespace salessystem.Web
 {
@@ -34,6 +35,8 @@ namespace salessystem.Web
                     opts.EnableDetailedErrors();
                     opts.UseNpgsql(Configuration.GetConnectionString("sales.dev"));
                 });
+
+            services.AddTransient<IProductService, IProductService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
