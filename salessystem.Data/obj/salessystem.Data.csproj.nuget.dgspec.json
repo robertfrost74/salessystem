@@ -42,15 +42,15 @@
             },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[5.0.0-preview.6.20312.15, )"
+              "version": "[3.1.5, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[5.0.0-preview.6.20312.4, )"
+              "version": "[3.1.5, )"
             },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
-              "version": "[5.0.0-preview6, )"
+              "version": "[3.1.4, )"
             }
           },
           "imports": [
